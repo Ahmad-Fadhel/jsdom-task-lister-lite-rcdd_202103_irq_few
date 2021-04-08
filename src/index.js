@@ -12,6 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
     tasks.append(todoLi);
   }
   
-  submit.addEventListener("click", submit)
+  submit.addEventListener("submit", submit)
   
 });
