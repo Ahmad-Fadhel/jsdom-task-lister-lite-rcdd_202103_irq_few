@@ -4,11 +4,13 @@ document.addEventListener("DOMContentLoaded", () => {
   let tasks = document.getElementById("tasks");
   let todoSubmit = document.getElementById("submit");
   let TodoInput = document.getElementById("new-task-description");
-  todoLi.innerHTML = TodoInput.value;
-  tasks.append(todoLi);
+
   
   function submit (){
-    
+    todoLi.innerHTML = TodoInput.value;
+    tasks.append(todoLi);
   }
+  
+  submit.addEventListener("click", submit)
   
 });
