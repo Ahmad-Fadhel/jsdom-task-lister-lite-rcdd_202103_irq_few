@@ -6,4 +6,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let TodoInput = document.getElementById("new-task-description");
   todoLi.innerHTML = TodoInput.value;
   tasks.append(todoLi);
+  
+  function submit (){
+    
+  }
+  
 });
